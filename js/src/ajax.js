@@ -832,3 +832,5 @@ $(document).ajaxError(function (event, request, settings) {
         AJAX.xhr = null;
     }
 });
+
+module.exports = AJAX;

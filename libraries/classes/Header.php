@@ -162,11 +162,11 @@ class Header
     private function _addDefaultScripts()
     {
         // Localised strings
-        $this->_scripts->addFile('vendor/jquery/jquery.min.js');
+        $this->_scripts->addFile('dist/vendor/jquery/jquery.min.js');
         $this->_scripts->addFile('vendor/jquery/jquery-migrate.js');
         $this->_scripts->addFile('whitelist.php');
         $this->_scripts->addFile('vendor/sprintf.js');
-        $this->_scripts->addFile('ajax.js');
+        $this->_scripts->addFile('dist/ajax.js');
         $this->_scripts->addFile('keyhandler.js');
         $this->_scripts->addFile('vendor/jquery/jquery-ui.min.js');
         $this->_scripts->addFile('vendor/js.cookie.js');
